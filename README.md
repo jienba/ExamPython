@@ -6,7 +6,7 @@ Pour lancer le projet en local, veuillez suivre les instructions ci-apres
 
 1.
 ```bash
-$ git clone https://github.com/john-bagiliko/CRUD.git 
+$ git clone https://github.com/jienba/ExamPython.git
 ```
 2. 
 ```bash
