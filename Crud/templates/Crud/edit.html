@@ -15,7 +15,7 @@
 		<div class="col-md-1 col-xs-1 col-sm-1"></div>
 		<div  class="col-md-10 col-xs-10 col-sm-10 ">
 		<br/>
-			<h6 style="text-align:center;"><font color="red"> All fields are required</font> </h6>
+			<h6 style="text-align:center;"><font color="red"> veuillez remplir tous les champs </font> </h6>
 		</div>
 		<div class="col-md-1 col-xs-1 col-sm-1">
 		</div>
@@ -35,12 +35,12 @@
 			      {{ field.label_tag }}
 			      {% render_field field class="form-control" %}
 			      {% if field.help_text %}
-			        <small class="form-text text-muted">{{ field.help_text }}</small>
+			        <small class="form-text text-muted">Modifier l'article</small>
 			      {% endif %}
 			    </div>
 			  {% endfor %}
 
-			  <button type="submit" class="btn btn-primary">submit</button>
+			  <button type="submit" class="btn btn-primary">Modifier</button>
 			</form>
 			<br>
 		</div>
